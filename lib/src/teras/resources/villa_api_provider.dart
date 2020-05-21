@@ -55,13 +55,11 @@ class TerasApiProvider {
     List<Villa> villas = [];
     List<String> ids = villasIds.toList();
 
-
-     for(String villaId in ids){
-      Villa  villaFromList = await fetchVillaDetails(villaId);
+    for (String villaId in ids) {
+      Villa villaFromList = await fetchVillaDetails(villaId);
       villas.add(villaFromList);
     }
     return villas;
-  
   }
 
   Future<Villa> fetchVillaDetails(String villaId) async {
