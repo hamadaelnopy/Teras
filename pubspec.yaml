@@ -41,13 +41,8 @@ dependencies:
       url: https://github.com/aeyrium/esys-flutter-share
   path_provider: ^1.6.8
   shared_preferences: ^0.5.7+2
-  flushbar:
-    git:
-      url: git://github.com/valterh4ck3r/flushbar
-      ref: master
-
-
-
+  flushbar: 1.6.0
+  flutter_slidable: ^0.5.4
 
 
 
